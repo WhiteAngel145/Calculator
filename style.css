@@ -1,0 +1,83 @@
+body {
+	background-color:rgb(8, 8, 8);
+}
+
+main {
+	margin-top: 70px;
+	text-align: center;
+	background-color: black;
+	height: 90vh;
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgb(120, 180, 187);
+	height: 100%;
+	border: solid;
+	border-radius: 13%;
+	width: 45vh;
+	height: 85vh;
+}
+.display {
+	background-color: darkgray;
+	text-align: center;
+	font-size: xx-large;
+	border-radius: 15%;
+	margin-bottom: 20px;
+	border-color: black;
+	resize: none;
+	width: 40vh;
+	height: 30vh;
+
+}
+
+.grup1 {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.grup2 {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.grup3 {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.grup4 {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+button {
+	width: 65px;
+	height: 55px;
+	background-color: rgb(91, 137, 121);
+	border: solid;
+	border-radius: 50%;
+	font-size: xx-large;
+	margin-bottom: 10px;
+	margin-left: 7px;
+	margin-right: 7px;
+	border-color: rgb(226, 39, 142);
+}
+#result {
+	font-size: 3rem;
+}
+p {
+	font-size: 2rem;
+}
